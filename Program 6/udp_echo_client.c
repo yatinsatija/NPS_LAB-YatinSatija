@@ -5,6 +5,7 @@
 #include<unistd.h>
 #include<stdlib.h>
 #include<stdio.h>
+#include<arpa/inet.h>
 
 void str_cli(FILE *fp, int sockfd,struct sockaddr* serv_address, int servlen)
 {
